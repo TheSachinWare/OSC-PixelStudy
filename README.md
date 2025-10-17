@@ -11,6 +11,16 @@ Built using **HTML, CSS, and JavaScript**, this app lets you **add, store, and m
 
 ---
 
+## 📸 Preview
+
+Here’s a quick look at PixelStudy in action:
+
+![App Preview](assets/preview.png)
+
+*(If the image doesn’t render yet, it’s a placeholder for contributors to update.)*
+
+---
+
 ## 🧩 Features
 - 📘 Add new subjects with custom names  
 - 🔗 Add useful study links under each subject  
@@ -48,50 +58,3 @@ Click on the **Fork** button (top right) to copy this repo into your GitHub acco
 ### 2️⃣ Clone your fork
 ```bash
 git clone https://github.com/<your-username>/Study-Resource-Hub.git
-```
-### 3️⃣ Open the project
-Just open index.html in your browser — no setup needed!
-
-### 4️⃣ Make your changes
-
-Edit the HTML, CSS, or JS files as needed.
-
-### 5️⃣ Commit & push
-```bash
-git add .
-git commit -m "Added new feature: <describe>"
-git push
-```
-### 6️⃣ Create a Pull Request
-
-Go to your forked repo → click “New Pull Request”
-Your PR will be reviewed and merged if it fits the project goals!
-
-## 💡 Future Ideas
-
-- 🌗 Add dark/light theme toggle
-
-- 🔍 Add search bar for subjects
-
-- 📱 Improve mobile responsiveness
-
-- 🏷️ Allow tags for resources
-
-- 🔔 Add reminders for study sessions
-
-## 📄 License
-
-This project is licensed under the MIT License — free to use, modify, and share.
-
-## ❤️ Acknowledgements
-
-Made with love by Pixel Wing
-
-and awesome contributors from the open-source community 💫
-
-## 🧑‍💻 Contributors
-
-<a href="https://github.com/pixelwing/PixelStudy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pixelwing/PixelStudy" />
-</a>
-
