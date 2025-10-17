@@ -34,9 +34,9 @@
         <button id="clear-search" class="icon-btn" title="Clear search" aria-label="Clear search">✖</button>
       </div>
 
-      <button id="theme-toggle" class="icon-btn" title="Toggle theme" aria-pressed="false">🌙</button>
+      <button id="theme-toggle" class="icon-btn" title="Toggle theme" aria-pressed="false" aria-label="Toggle light/dark theme">🌙</button>
       <a class="icon-btn" href="https://github.com/pixelwing/PixelStudy" target="_blank" rel="noopener"
-        title="View repository">
+        title="View repository" aria-label="View repository on GitHub">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path
             d="M12 .5C5.73.5.98 5.25.98 11.5c0 4.68 3.03 8.63 7.25 10.03.53.1.73-.23.73-.51 0-.25-.01-.91-.01-1.79-2.95.64-3.57-1.27-3.57-1.27-.48-1.21-1.17-1.54-1.17-1.54-.96-.66.07-.65.07-.65 1.06.08 1.62 1.09 1.62 1.09.94 1.6 2.46 1.14 3.06.87.09-.67.37-1.14.67-1.4-2.36-.27-4.84-1.2-4.84-5.36 0-1.18.42-2.14 1.11-2.89-.12-.27-.48-1.35.11-2.81 0 0 .9-.29 2.95 1.1A10.2 10.2 0 0112 6.3c.91.004 1.83.12 2.69.35 2.05-1.39 2.95-1.1 2.95-1.1.59 1.46.23 2.54.11 2.81.69.75 1.11 1.71 1.11 2.89 0 4.17-2.49 5.09-4.86 5.35.38.33.72.99.72 2v2.96c0 .28.2.61.74.5C19.99 20.12 23 16.17 23 11.5 23 5.25 18.27.5 12 .5z"
@@ -53,7 +53,7 @@
 
       <div class="add-subject">
         <input id="new-subject-name" placeholder="Add subject (e.g., Math)" aria-label="New subject name">
-        <button id="add-subject-btn" class="btn-primary">Add</button>
+        <button id="add-subject-btn" class="btn-primary" aria-label="Add new subject">Add</button>
       </div>
     </aside>
 
@@ -61,8 +61,8 @@
       <div class="content-header">
         <h3 id="current-subject-title">All Resources</h3>
         <div style="display:flex;gap:0.5rem;align-items:center">
-          <button id="open-add" class="btn-primary">+ Add Resource</button>
-          <button id="reset-sample" class="btn-ghost" title="Reset sample data">Reset</button>
+          <button id="open-add" class="btn-primary" aria-label="Add new resource">+ Add Resource</button>
+          <button id="reset-sample" class="btn-ghost" title="Reset sample data" aria-label="Reset sample data">Reset</button>
         </div>
       </div>
 
@@ -97,8 +97,8 @@
           <input id="modal-link" placeholder="https://example.com" />
         </div>
         <div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-top:0.4rem">
-          <button id="modal-cancel" class="btn-ghost">Cancel</button>
-          <button id="modal-save" class="btn-primary">Save</button>
+          <button id="modal-cancel" class="btn-ghost" aria-label="Cancel adding resource">Cancel</button>
+          <button id="modal-save" class="btn-primary" aria-label="Save new resource">Save</button>
         </div>
       </div>
     </div>
